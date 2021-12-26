@@ -1,0 +1,45 @@
+import turtle
+import random
+wn=turtle.Screen()
+wn.title("Turtle")
+ig=turtle.Turtle()
+ig.pensize(2)
+for i in range(9):
+	ig.color("yellow")
+	ig.right(-80)
+	ig.forward(20)
+	ig.left(80)
+	ig.backward(40)
+for i in range(1):
+	ig.color("yellow")
+	ig.forward(20)
+for i in range(10):
+	ig.color("green")
+	ig.right(10)
+	ig.forward(20)
+ig.color("red")
+ig.right(90)
+ig.forward(15)
+ig.right(250)
+ig.forward(25)
+ig.right(280)
+ig.forward(25)
+ig.left(75)
+ig.forward(25)
+ig.right(250)
+ig.forward(25)
+for i in range(3):
+	ig.color("blue")
+	ig.right(270)
+	ig.forward(10)
+for i in range(10):
+	ig.color("green")
+	ig.right(5)
+	ig.forward(20)
+for i in range(10):
+	ig.color("yellow")
+	ig.right(-80)
+	ig.forward(20)
+	ig.left(80)
+	ig.backward(40)
+turtle.done()
